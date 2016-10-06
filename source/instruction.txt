@@ -1,0 +1,33 @@
+===================================
+Instruction for the Landing Page
+===================================
+
+*** Directories ***
+
+ - common/ -------------> Including Shared files as header and footer ( Do not modify or add files!! )
+ - images/ -------------> All images must be on this directory.
+ - scss/ ---------------> All scss files must be on this directory.
+ |- index.html ---------> HTML for the landing page. You edit this.
+ |- lp.css -------------> CSS for the page. All styles have to be in this file.
+ |- lp.js --------------> JS for the page. All javascript processes have to be in this file.
+ 
+
+*** HTML ***
+- You can edit index.html.
+- You can edit from "Start of Contents" to "End of Contents" in the inde.html.
+- Do not modify except for the above area.
+- You can not edit the header and footer.
+- Path for image files have to be "Relative path" (e.g. "./images/main.jpg" ).
+
+
+*** CSS ***
+- Basic styles are imported as "/common/style.css".
+- You can edit lp.css(or lp.scss to compile).
+- Please make a namespace class name. (e.g. .cp-namespace{} used on the html/css).
+- Path for image files have to be "Relative path" (e.g. url("./images/bg.png"); ).
+
+*** Javascript ***
+- Do not define global variables.
+- All Processes have to be into the nameless function.
+- You can use jQuery.
+- Please ask if you need extra JS frameworks.
